@@ -8,11 +8,11 @@
                 Nous assurons l'accueil des visiteurs et des nouveaux membres <strong>chaque mercredi de 16h à 22h</strong>. 
                 Consultez notre <a href="agenda">agenda</a>.
             </p>
-            <p class="text-sm">
+            <!--<p class="text-sm">
                 Première fois? Il est recommandé de nous 
                 <a href="contact">prévenir de votre visite</a> 
                 afin que nous puissions vous accueillir dans les meilleures conditions possibles.
-            </p>
+            </p>-->
         </div>
     </article>
     <article class="mb-6">

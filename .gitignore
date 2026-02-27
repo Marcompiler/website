@@ -1,3 +1,6 @@
 .DS_Store
 Archive.zip
 /chaosstuff
+
+# Dépendances npm
+/node_modules/

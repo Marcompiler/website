@@ -35,21 +35,21 @@ Pour plus d'infos sur les hôtes virtuels de XAMPP, veuillez consulter la docume
 
 ### Tailwind
 
-Durant le développement, vous allez sûrement manipuler des classes Tailwind. Pour que le fichier CSS généré par Tailwind prenne en compte vos modifications, vous devez exécuter quelques commandes.
+Durant le développement, **vous allez sûrement manipuler des classes Tailwind**. Pour que le fichier CSS généré par Tailwind prenne en compte vos modifications, vous devez exécuter quelques commandes.
 
 #### Premier lancement
 
-La première fois, vous devez télécharger les dépendances requises par le site Web avec la commande suivante à la racine du projet :
+**La première fois**, vous devez **télécharger les dépendances** requises par le site Web avec la commande suivante à la racine du projet :
 
 ```pwsh
 npm install
 ```
 
-Les dépendances définies dans les fichiers `package-lock.json` et `package.json` seront alors disponibles pour vos prochains lancements de l'application.
+Les dépendances **définies dans les fichiers `package-lock.json` et `package.json`** seront alors disponibles pour vos prochains lancements de l'application.
 
 #### Actualisation automatique du CSS pendant le développement
 
-Durant le développement, Tailwind peut actualiser automatiquement le contenu de son fichier CSS selon les classes CSS que vous utilisez au travers de votre site Web.
+Durant le développement, Tailwind peut **actualiser automatiquement** le contenu de son fichier CSS **selon les classes CSS que vous utilisez** au travers de votre site Web.
 
 Dans notre cas, à la racine du projet, exécutez la commande suivante :
 
@@ -57,17 +57,17 @@ Dans notre cas, à la racine du projet, exécutez la commande suivante :
 npx @tailwindcss/cli -i .\css\style.css -o .\css\tailwind.css --watch
 ```
 
-Le fichier `css/tailwind.css` sera alors automatiquement généré et/ou actualisé selon vos modifications durant l'exécution de l'application dans la phase de développement.
+**Le fichier `css/tailwind.css` sera alors automatiquement généré et/ou actualisé** selon vos modifications durant l'exécution de l'application dans la phase de développement.
 
 #### Mise en production
 
 Lorsque votre développement est terminé, pour pouvoir déployer proprement votre fichier CSS de Tailwind en production, vous pouvez :
 
-1. Couper l'exécution de l'application.
-2. Exécuter la commande suivante à la racine du projet :
+1. **Cesser l'exécution** de l'application.
+2. **Exécuter la commande** suivante à la racine du projet :
 
     ```pwsh
     npx @tailwindcss/cli -i .\css\style.css -o .\css\tailwind.css --minify
     ```
 
-Cela va alors générer une version minifiée du CSS de Tailwind dédié à votre application pour pouvoir déployer uniquement ce dont vous avez besoin.
+Cela va alors **générer une version minifiée du CSS de Tailwind** dédié à votre application pour pouvoir déployer uniquement ce dont vous avez besoin.

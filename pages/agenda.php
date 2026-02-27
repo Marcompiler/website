@@ -31,9 +31,11 @@ function getEventColor($title) {
     
     $keywords = [
         'on5vl'                    => '#215387',
-        'liege linux team'         => '#0472c7',
+        'liege linux team'         => '#008ee6ff',
         'install party'            => '#8b5cf6',
         'expo'                     => '#ff0066ff',
+        'workshop'                 => '#00d9c4ff',
+        'atelier'                 => '#00d9c4ff',
     ];
     
     foreach ($keywords as $keyword => $color) {

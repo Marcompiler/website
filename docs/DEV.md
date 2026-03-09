@@ -54,10 +54,10 @@ Durant le développement, Tailwind peut **actualiser automatiquement** le conten
 Dans notre cas, à la racine du projet, exécutez la commande suivante :
 
 ```pwsh
-npx @tailwindcss/cli -i .\css\style.css -o .\css\tailwind.css --watch
+npx @tailwindcss/cli -i .\css\lghs-base.css -o .\css\lghs-full.css --watch
 ```
 
-**Le fichier `css/tailwind.css` sera alors automatiquement généré et/ou actualisé** selon vos modifications durant l'exécution de l'application dans la phase de développement.
+**Le fichier `css/lghs-full.css` sera alors automatiquement généré et/ou actualisé** selon vos modifications durant l'exécution de l'application dans la phase de développement.
 
 #### Mise en production
 
@@ -67,7 +67,7 @@ Lorsque votre développement est terminé, pour pouvoir déployer proprement vot
 2. **Exécuter la commande** suivante à la racine du projet :
 
     ```pwsh
-    npx @tailwindcss/cli -i .\css\style.css -o .\css\tailwind.css --minify
+    npx @tailwindcss/cli -i .\css\lghs-base.css -o .\css\lghs-full.css --minify
     ```
 
 Cela va alors **générer une version minifiée du CSS de Tailwind** dédié à votre application pour pouvoir déployer uniquement ce dont vous avez besoin.

@@ -36,8 +36,7 @@ require_once('includes/router.php');
     <link rel="manifest" href="images/favicon/site.webmanifest" />
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/tailwind.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/lghs-full.css">
     
     <style type="text/tailwindcss">
         @font-face {

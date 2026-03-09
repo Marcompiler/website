@@ -35,8 +35,8 @@ require_once('includes/router.php');
     <meta name="apple-mobile-web-app-title" content="LgHs" />
     <link rel="manifest" href="images/favicon/site.webmanifest" />
 
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="css/style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/lghs-full.css">
     
     <style type="text/tailwindcss">
         @font-face {
